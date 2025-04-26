@@ -1,15 +1,15 @@
-##Prueba tecnica TCIT
+#Prueba tecnica TCIT
 
 Esta aplicacion se construyo en base a lo solicitado para el proceso de seleccion de  TCIT "Challenge de desarrollo de aplicación en React con backend en Ruby on Rails o NodeJS, Base de datos SQL"
 
 Se utilizo Node.js para el servidor backend de la API y React redux para el front
 
-##Requisitos
+#Requisitos
 - Node.js (versión 14 o superior)
 - npm (versión 6 o superior)
 - Base de datos postgreSQL
 
-##Dependencias
+#Dependencias
 
 - async
 - cors
@@ -18,7 +18,7 @@ Se utilizo Node.js para el servidor backend de la API y React redux para el fron
 - pg-hstore
 - sequelize
 
-##Instalacion 
+#Instalacion 
 
 1. 
 Ubicar las carpetas, junto a .git, .gitignore y este readme, es una carpeta a eleccion.
@@ -46,7 +46,7 @@ DB_PASS=contraseña de la base de datos
 HOST=host a usar, por defecto sera "localhost"
 PORT=puerto a usar, por defect 3000
 
-##Uso
+#Uso
 
 1. Ya con los archivos necesarios instalados, en ambas ventanas ingrese este comando
     ```bash
@@ -58,7 +58,7 @@ PORT=puerto a usar, por defect 3000
 
 4. Cree un post por el administrador de su base de datos preferida, insertando "name" y "description"
 
-##Estructura de archivos
+#Estructura de archivos
 -/app
     -/back
         -/config
@@ -101,10 +101,10 @@ PORT=puerto a usar, por defect 3000
     -readme.md
 
 
-##Endpoints Backend
+#Endpoints Backend
 -`GET /getPost`: obtiene y entrega una lista de todos los posts en la base de datos, con "id", "name" y "description"
 -`DELETE /deletePost/:id`: Borra un registro POST de la base de datos segun la "id" entregada, devolviendo la accion realizada en formato texto
 -`GET /createPost?name=:name&description=:description`: Crea un POST obteniendo los datos por get de los parametros "name" y "description"
 
-##Licencias
+#Licencias
 Licencia no registrada, libre de intercambio, comercializacion y uso.
